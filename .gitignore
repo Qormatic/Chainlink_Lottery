@@ -1,0 +1,12 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+Z_PC/
+
+#Hardhat files
+cache
+artifacts
+
