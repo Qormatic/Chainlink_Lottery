@@ -32,10 +32,8 @@ const networkConfig = {
 
 const developmentChains = ["hardhat", "localhost"]; // two different possible development chains; default & 31337 in networkConfig
 const VERIFICATION_BLOCK_CONFIRMATIONS = 6;
-const frontEndContractsFile =
-  "../nextjs-smartcontract-lottery-fcc/constants/contractAddresses.json";
-const frontEndAbiFile =
-  "../nextjs-smartcontract-lottery-fcc/constants/abi.json";
+const frontEndContractsFile = "../chapter_10/constants/contractAddresses.json";
+const frontEndAbiFile = "../chapter_10/constants/abi.json";
 
 module.exports = {
   networkConfig,
